@@ -133,5 +133,43 @@ img {
         .container{
             margin: 0 auto;
             width: 534px;
+            padding: 0 0;
         }
  }
+
+ 
+ @media screen and (max-width: 480px) {
+    .container{
+        margin: 0 auto;
+        width: 400px;
+        padding: 0 0;
+    }
+
+    .steps {
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+    }
+
+    .why-us{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-color: black;
+    }
+
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons text-center{
+        width: 100%;
+    }
+
+    .col {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
+
+}
