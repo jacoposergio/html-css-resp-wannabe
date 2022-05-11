@@ -152,8 +152,10 @@ img {
 
     .why-us{
         padding-top: 3rem;
-        padding-bottom: 3rem;
         background-color: black;
+        margin-bottom: 0rem;
+        padding-bottom: 3rem;
+        }
     }
 
 
